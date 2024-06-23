@@ -5,6 +5,8 @@ There are 3 modules along with their testbenches, addition & subtraction, multip
 
 Alu.v is your top module that integrates all the circuits together.
 
+The results of the testbenches are displayed in separate output files.
+
 Flags:
 
 • Sign Flag: The sign flag indicates if the result is negative. The flag is set to 1 if the result is
