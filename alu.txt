@@ -1,0 +1,245 @@
+A=101 , B=101, A + B= result=10010, SF=1, ZF=0
+A=101 , B=101, A - B= result=00000, SF=0, ZF=1
+A=101 , B=101, A * B= result=00001, SF=0, ZF=0
+A=101 , B=101, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=101 , B=110, A + B= result=10011, SF=1, ZF=0
+A=101 , B=110, A - B= result=00001, SF=0, ZF=0
+A=101 , B=110, A * B= result=00010, SF=0, ZF=0
+A=101 , B=110, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=111, A + B= result=10100, SF=1, ZF=0
+A=101 , B=111, A - B= result=00010, SF=0, ZF=0
+A=101 , B=111, A * B= result=00011, SF=0, ZF=0
+A=101 , B=111, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=000, A + B= result=10001, SF=1, ZF=0
+A=101 , B=000, A - B= result=10001, SF=1, ZF=0
+A=101 , B=000, A * B= result=10000, SF=1, ZF=1
+A=101 , B=000, A % B= result=10000, SF=1, ZF=1, DZF=1
+
+A=101 , B=001, A + B= result=00000, SF=0, ZF=1
+A=101 , B=001, A - B= result=10010, SF=1, ZF=0
+A=101 , B=001, A * B= result=10001, SF=1, ZF=0
+A=101 , B=001, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=101 , B=010, A + B= result=00001, SF=0, ZF=0
+A=101 , B=010, A - B= result=10011, SF=1, ZF=0
+A=101 , B=010, A * B= result=10010, SF=1, ZF=0
+A=101 , B=010, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=101 , B=011, A + B= result=00010, SF=0, ZF=0
+A=101 , B=011, A - B= result=10100, SF=1, ZF=0
+A=101 , B=011, A * B= result=10011, SF=1, ZF=0
+A=101 , B=011, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=110 , B=101, A + B= result=10011, SF=1, ZF=0
+A=110 , B=101, A - B= result=10001, SF=1, ZF=0
+A=110 , B=101, A * B= result=00010, SF=0, ZF=0
+A=110 , B=101, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=110 , B=110, A + B= result=10100, SF=1, ZF=0
+A=110 , B=110, A - B= result=00000, SF=0, ZF=1
+A=110 , B=110, A * B= result=00100, SF=0, ZF=0
+A=110 , B=110, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=110 , B=111, A + B= result=10101, SF=1, ZF=0
+A=110 , B=111, A - B= result=00001, SF=0, ZF=0
+A=110 , B=111, A * B= result=00110, SF=0, ZF=0
+A=110 , B=111, A % B= result=10010, SF=1, ZF=0, DZF=0
+
+A=110 , B=000, A + B= result=10010, SF=1, ZF=0
+A=110 , B=000, A - B= result=10010, SF=1, ZF=0
+A=110 , B=000, A * B= result=10000, SF=1, ZF=1
+A=110 , B=000, A % B= result=10000, SF=1, ZF=1, DZF=1
+
+A=110 , B=001, A + B= result=10001, SF=1, ZF=0
+A=110 , B=001, A - B= result=10011, SF=1, ZF=0
+A=110 , B=001, A * B= result=10010, SF=1, ZF=0
+A=110 , B=001, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=110 , B=010, A + B= result=00000, SF=0, ZF=1
+A=110 , B=010, A - B= result=10100, SF=1, ZF=0
+A=110 , B=010, A * B= result=10100, SF=1, ZF=0
+A=110 , B=010, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=110 , B=011, A + B= result=00001, SF=0, ZF=0
+A=110 , B=011, A - B= result=10101, SF=1, ZF=0
+A=110 , B=011, A * B= result=10110, SF=1, ZF=0
+A=110 , B=011, A % B= result=10010, SF=1, ZF=0, DZF=0
+
+A=111 , B=101, A + B= result=10100, SF=1, ZF=0
+A=111 , B=101, A - B= result=10010, SF=1, ZF=0
+A=111 , B=101, A * B= result=00011, SF=0, ZF=0
+A=111 , B=101, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=111 , B=110, A + B= result=10101, SF=1, ZF=0
+A=111 , B=110, A - B= result=10001, SF=1, ZF=0
+A=111 , B=110, A * B= result=00110, SF=0, ZF=0
+A=111 , B=110, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=111 , B=111, A + B= result=10110, SF=1, ZF=0
+A=111 , B=111, A - B= result=00000, SF=0, ZF=1
+A=111 , B=111, A * B= result=01001, SF=0, ZF=0
+A=111 , B=111, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=111 , B=000, A + B= result=10011, SF=1, ZF=0
+A=111 , B=000, A - B= result=10011, SF=1, ZF=0
+A=111 , B=000, A * B= result=10000, SF=1, ZF=1
+A=111 , B=000, A % B= result=10000, SF=1, ZF=1, DZF=1
+
+A=111 , B=001, A + B= result=10010, SF=1, ZF=0
+A=111 , B=001, A - B= result=10100, SF=1, ZF=0
+A=111 , B=001, A * B= result=10011, SF=1, ZF=0
+A=111 , B=001, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=111 , B=010, A + B= result=10001, SF=1, ZF=0
+A=111 , B=010, A - B= result=10101, SF=1, ZF=0
+A=111 , B=010, A * B= result=10110, SF=1, ZF=0
+A=111 , B=010, A % B= result=10001, SF=1, ZF=0, DZF=0
+
+A=111 , B=011, A + B= result=00000, SF=0, ZF=1
+A=111 , B=011, A - B= result=10110, SF=1, ZF=0
+A=111 , B=011, A * B= result=11001, SF=1, ZF=0
+A=111 , B=011, A % B= result=10000, SF=1, ZF=1, DZF=0
+
+A=000 , B=101, A + B= result=10001, SF=1, ZF=0
+A=000 , B=101, A - B= result=00001, SF=0, ZF=0
+A=000 , B=101, A * B= result=10000, SF=1, ZF=1
+A=000 , B=101, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=000 , B=110, A + B= result=10010, SF=1, ZF=0
+A=000 , B=110, A - B= result=00010, SF=0, ZF=0
+A=000 , B=110, A * B= result=10000, SF=1, ZF=1
+A=000 , B=110, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=000 , B=111, A + B= result=10011, SF=1, ZF=0
+A=000 , B=111, A - B= result=00011, SF=0, ZF=0
+A=000 , B=111, A * B= result=10000, SF=1, ZF=1
+A=000 , B=111, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=000 , B=000, A + B= result=00000, SF=0, ZF=1
+A=000 , B=000, A - B= result=00000, SF=0, ZF=1
+A=000 , B=000, A * B= result=00000, SF=0, ZF=1
+A=000 , B=000, A % B= result=00000, SF=0, ZF=1, DZF=1
+
+A=000 , B=001, A + B= result=00001, SF=0, ZF=0
+A=000 , B=001, A - B= result=10001, SF=1, ZF=0
+A=000 , B=001, A * B= result=00000, SF=0, ZF=1
+A=000 , B=001, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=000 , B=010, A + B= result=00010, SF=0, ZF=0
+A=000 , B=010, A - B= result=10010, SF=1, ZF=0
+A=000 , B=010, A * B= result=00000, SF=0, ZF=1
+A=000 , B=010, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=000 , B=011, A + B= result=00011, SF=0, ZF=0
+A=000 , B=011, A - B= result=10011, SF=1, ZF=0
+A=000 , B=011, A * B= result=00000, SF=0, ZF=1
+A=000 , B=011, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=001 , B=101, A + B= result=00000, SF=0, ZF=1
+A=001 , B=101, A - B= result=00010, SF=0, ZF=0
+A=001 , B=101, A * B= result=10001, SF=1, ZF=0
+A=001 , B=101, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=001 , B=110, A + B= result=10001, SF=1, ZF=0
+A=001 , B=110, A - B= result=00011, SF=0, ZF=0
+A=001 , B=110, A * B= result=10010, SF=1, ZF=0
+A=001 , B=110, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=001 , B=111, A + B= result=10010, SF=1, ZF=0
+A=001 , B=111, A - B= result=00100, SF=0, ZF=0
+A=001 , B=111, A * B= result=10011, SF=1, ZF=0
+A=001 , B=111, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=001 , B=000, A + B= result=00001, SF=0, ZF=0
+A=001 , B=000, A - B= result=00001, SF=0, ZF=0
+A=001 , B=000, A * B= result=00000, SF=0, ZF=1
+A=001 , B=000, A % B= result=00000, SF=0, ZF=1, DZF=1
+
+A=001 , B=001, A + B= result=00010, SF=0, ZF=0
+A=001 , B=001, A - B= result=00000, SF=0, ZF=1
+A=001 , B=001, A * B= result=00001, SF=0, ZF=0
+A=001 , B=001, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=001 , B=010, A + B= result=00011, SF=0, ZF=0
+A=001 , B=010, A - B= result=10001, SF=1, ZF=0
+A=001 , B=010, A * B= result=00010, SF=0, ZF=0
+A=001 , B=010, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=001 , B=011, A + B= result=00100, SF=0, ZF=0
+A=001 , B=011, A - B= result=10010, SF=1, ZF=0
+A=001 , B=011, A * B= result=00011, SF=0, ZF=0
+A=001 , B=011, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=010 , B=101, A + B= result=00001, SF=0, ZF=0
+A=010 , B=101, A - B= result=00011, SF=0, ZF=0
+A=010 , B=101, A * B= result=10010, SF=1, ZF=0
+A=010 , B=101, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=010 , B=110, A + B= result=00000, SF=0, ZF=1
+A=010 , B=110, A - B= result=00100, SF=0, ZF=0
+A=010 , B=110, A * B= result=10100, SF=1, ZF=0
+A=010 , B=110, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=010 , B=111, A + B= result=10001, SF=1, ZF=0
+A=010 , B=111, A - B= result=00101, SF=0, ZF=0
+A=010 , B=111, A * B= result=10110, SF=1, ZF=0
+A=010 , B=111, A % B= result=00010, SF=0, ZF=0, DZF=0
+
+A=010 , B=000, A + B= result=00010, SF=0, ZF=0
+A=010 , B=000, A - B= result=00010, SF=0, ZF=0
+A=010 , B=000, A * B= result=00000, SF=0, ZF=1
+A=010 , B=000, A % B= result=00000, SF=0, ZF=1, DZF=1
+
+A=010 , B=001, A + B= result=00011, SF=0, ZF=0
+A=010 , B=001, A - B= result=00001, SF=0, ZF=0
+A=010 , B=001, A * B= result=00010, SF=0, ZF=0
+A=010 , B=001, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=010 , B=010, A + B= result=00100, SF=0, ZF=0
+A=010 , B=010, A - B= result=00000, SF=0, ZF=1
+A=010 , B=010, A * B= result=00100, SF=0, ZF=0
+A=010 , B=010, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=010 , B=011, A + B= result=00101, SF=0, ZF=0
+A=010 , B=011, A - B= result=10001, SF=1, ZF=0
+A=010 , B=011, A * B= result=00110, SF=0, ZF=0
+A=010 , B=011, A % B= result=00010, SF=0, ZF=0, DZF=0
+
+A=011 , B=101, A + B= result=00010, SF=0, ZF=0
+A=011 , B=101, A - B= result=00100, SF=0, ZF=0
+A=011 , B=101, A * B= result=10011, SF=1, ZF=0
+A=011 , B=101, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=011 , B=110, A + B= result=00001, SF=0, ZF=0
+A=011 , B=110, A - B= result=00101, SF=0, ZF=0
+A=011 , B=110, A * B= result=10110, SF=1, ZF=0
+A=011 , B=110, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=011 , B=111, A + B= result=00000, SF=0, ZF=1
+A=011 , B=111, A - B= result=00110, SF=0, ZF=0
+A=011 , B=111, A * B= result=11001, SF=1, ZF=0
+A=011 , B=111, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=011 , B=000, A + B= result=00011, SF=0, ZF=0
+A=011 , B=000, A - B= result=00011, SF=0, ZF=0
+A=011 , B=000, A * B= result=00000, SF=0, ZF=1
+A=011 , B=000, A % B= result=00000, SF=0, ZF=1, DZF=1
+
+A=011 , B=001, A + B= result=00100, SF=0, ZF=0
+A=011 , B=001, A - B= result=00010, SF=0, ZF=0
+A=011 , B=001, A * B= result=00011, SF=0, ZF=0
+A=011 , B=001, A % B= result=00000, SF=0, ZF=1, DZF=0
+
+A=011 , B=010, A + B= result=00101, SF=0, ZF=0
+A=011 , B=010, A - B= result=00001, SF=0, ZF=0
+A=011 , B=010, A * B= result=00110, SF=0, ZF=0
+A=011 , B=010, A % B= result=00001, SF=0, ZF=0, DZF=0
+
+A=011 , B=011, A + B= result=00110, SF=0, ZF=0
+A=011 , B=011, A - B= result=00000, SF=0, ZF=1
+A=011 , B=011, A * B= result=01001, SF=0, ZF=0
+A=011 , B=011, A % B= result=00000, SF=0, ZF=1, DZF=0
+
